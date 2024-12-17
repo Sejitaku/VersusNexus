@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <title>Debate Fictional Characters</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>Debate Fictional Characters</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Forum</a></li>
+      <li><a href="#">Character Profiles</a></li>
+      <li><a href="#" role="button">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <header>
+      <h1>Welcome to Debate Fictional Characters!</h1>
+      <p>Join exciting debates about your favorite fictional characters. Who would win? Who's more iconic? The floor is yours!</p>
+    </header>
+
+    <!-- Featured Debate Section -->
+    <section>
+      <h2>Featured Debate</h2>
+      <p>Who would win: Batman vs. Iron Man?</p>
+      <a href="#" role="button">Join the Debate</a>
+    </section>
+
+    <!-- Ads Section -->
+    <section>
+      <h2>Sponsored Ads</h2>
+      <div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px; text-align: center;">
+        <p>Ad Space 1 (e.g., Google AdSense)</p>
+      </div>
+      <div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px; text-align: center; margin-top: 10px;">
+        <p>Ad Space 2</p>
+      </div>
+    </section>
+
+    <!-- Popular Debates -->
+    <section>
+      <h2>Popular Debates</h2>
+      <ul>
+        <li><a href="#">Goku vs. Superman</a></li>
+        <li><a href="#">Sherlock Holmes vs. Batman</a></li>
+        <li><a href="#">Harry Potter vs. Gandalf</a></li>
+      </ul>
+    </section>
+
+    <!-- Subscription Section -->
+    <section aria-label="Subscribe">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Subscribe</h2>
+            <h3>Get updates on new debates and characters!</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required>
+            <input type="email" id="email" name="email" placeholder="Email address" aria-label="Email address" required>
+            <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <small>
+      <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+    </small>
+    <p>© 2024 Debate Fictional Characters</p>
+  </footer>
+</body>
+</html>
